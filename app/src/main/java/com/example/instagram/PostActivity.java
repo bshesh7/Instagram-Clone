@@ -27,6 +27,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -39,6 +40,8 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+
+import Model.User;
 
 public class PostActivity extends AppCompatActivity {
 
@@ -187,4 +190,6 @@ public class PostActivity extends AppCompatActivity {
 
         description.setHashtagAdapter(hashtagAdapter);
     }
+
+
 }
