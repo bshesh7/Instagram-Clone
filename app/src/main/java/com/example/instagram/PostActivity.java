@@ -190,6 +190,4 @@ public class PostActivity extends AppCompatActivity {
 
         description.setHashtagAdapter(hashtagAdapter);
     }
-
-
 }
